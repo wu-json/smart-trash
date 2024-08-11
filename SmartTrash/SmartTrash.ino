@@ -1,11 +1,11 @@
+#include <Servo.h>
+
+Servo servo;
 
 void setup() {
-    pinMode(LED_BUILTIN, OUTPUT);
+  servo.attach(3);
 }
 
 void loop() {
-    digitalWrite(LED_BUILTIN, HIGH);
-    delay(1000);
-    digitalWrite(LED_BUILTIN, LOW);
-    delay(1000);
+    servo.write(0);
 }
