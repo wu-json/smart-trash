@@ -17,3 +17,9 @@ arduino-cli compile --fqbn arduino:avr:nano SmartTrash
 ```bash
 arduino-cli upload -p /dev/cu.usbserial-140 --fqbn arduino:avr:nano SmartTrash
 ```
+
+### Compile and Upload
+
+```bash
+bash ./scripts/compile-and-upload.sh
+```
