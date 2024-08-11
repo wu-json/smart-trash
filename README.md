@@ -17,11 +17,3 @@ arduino-cli compile --fqbn arduino:avr:nano SmartTrash
 ```bash
 arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:nano SmartTrash
 ```
-
-```
-
-```
-
-```
-
-```
